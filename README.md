@@ -1,4 +1,4 @@
-<h1>Libft</h1>
+<h1>Libft 📚</h1>
 The first project in 42 cursus. <br>
 Grade: 125/100 🔥 <br>
 I also included 3 testers to check your code!!! 😈😈😈 <br>
