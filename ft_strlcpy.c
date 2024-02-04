@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vmikayel <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: vrmikaye <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/03/18 11:53:15 by vmikayel          #+#    #+#             */
-/*   Updated: 2022/03/18 11:53:50 by vmikayel         ###   ########.fr       */
+/*   Created: 2024/01/31 20:29:02 by vrmikaye          #+#    #+#             */
+/*   Updated: 2024/02/01 20:26:47 by vrmikaye         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size)
+unsigned int	ft_strlcpy(char *dest, const char *src, unsigned int size)
 {
 	unsigned int	count;
 	unsigned int	index;
